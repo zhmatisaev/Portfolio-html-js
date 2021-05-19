@@ -1,0 +1,128 @@
+@media (max-width: 375px) {
+  body {
+    padding: 0;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .container {
+    width: 100%;
+    padding: 0 29px;
+  }
+
+  .lang {
+    display: none;
+  }
+
+  .main-banner_mb {
+    display: flex;
+    width: inherit;
+  }
+
+  .main-banner {
+    display: none;
+  }
+
+  .bio {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .bio h1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 23px;
+  }
+
+  .burger-menu {
+    width: 30px;
+    cursor: pointer;
+    display: flex;
+    margin-top: 15px;
+  }
+
+  .nav-mb {
+    display: none;
+    position: absolute;
+    background-color: white;
+    height: 100vh;
+    width: 100%;
+    margin-top: -40px;
+    padding: 66px 26px;
+  }
+
+  .nav-mb .nav {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 0;
+  }
+
+  .nav li {
+    font-size: 34px;
+    line-height: 42px;
+    margin-bottom: 68px;
+  }
+
+  .about-section {
+    padding: 81px 0 46px 0;
+  }
+
+  .section-title {
+    margin-top: 0;
+  }
+
+  .about-section p {
+    width: inherit;
+    margin: 30px auto;
+  }
+
+  .skills-section .section-title {
+    margin-top: 83px;
+  }
+
+  .tools {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+    margin-bottom: 18px;
+  }
+
+  .tools img {
+    margin-bottom: 80px;
+  }
+
+  footer .section-title {
+    margin-top: 82px;
+  }
+
+  footer div {
+    margin-top: 48px;
+  }
+
+  footer .sub-text {
+    margin-bottom: 90px;
+  }
+
+  #close-btn {
+    width: 23px;
+  }
+
+  .nav-mb .nav li:first-child {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .nav-mb .nav li:last-child {
+    margin-bottom: 50px;
+  }
+
+  .nav-mb .lang {
+    display: flex;
+    margin-left: 90%;
+  }
+}

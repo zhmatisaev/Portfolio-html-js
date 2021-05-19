@@ -1,0 +1,168 @@
+* {
+  box-sizing: border-box;
+  font-family: "Gilroy-Medium", sans-serif;
+  color: #070707;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* header */
+ul li:first-child {
+  color: black;
+}
+
+ul li {
+  cursor: pointer;
+  color: #828282;
+  font-weight: bold;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 32px 0;
+  border-bottom: 1px solid #828282;
+}
+
+.container {
+  width: 945px;
+  margin: 0 auto;
+}
+
+.bio {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin: 40px 0 49px 0;
+}
+
+.main-banner {
+  width: 100%;
+}
+
+.main-banner_mb {
+  display: none;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 47.3392px;
+  line-height: 59px;
+  font-family: "Gilroy-Bold";
+}
+
+.lang {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+}
+
+.nav-mb {
+  display: none;
+}
+
+/* section one */
+
+.about-section {
+  background: #f6f6f6;
+  text-align: center;
+  padding: 120px 0 107px 0;
+  margin-top: 104px;
+}
+
+.section-title {
+  font-family: "Gilroy-Bold";
+  font-size: 34px;
+  line-height: 42px;
+}
+
+.about-section p {
+  width: 400px;
+  margin: 20px auto;
+}
+
+/* section two */
+
+.skills-section {
+  text-align: center;
+  padding: 91px 0 110px 0;
+}
+
+.tools {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 83px;
+}
+
+.tools img {
+  width: 166px;
+}
+
+/* section three */
+.portfolio-section {
+  text-align: center;
+  background: #f6f6f6;
+  padding: 112px 0 5px 0;
+}
+
+.portfolio-section .section-title {
+  margin-bottom: 47px;
+}
+
+.portfolio-section img {
+  width: inherit;
+}
+
+.portfolio-section p {
+  margin: 44px 0 99px 0;
+}
+
+/* footer */
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 114px 0 100px 0;
+}
+
+footer button {
+  width: 180.5px;
+  height: 42px;
+  background-color: black;
+  border-radius: 23px;
+  padding: 12px 29px;
+  color: white;
+  border-style: none;
+  margin-top: 29px;
+  cursor: pointer;
+}
+
+footer div {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 85px;
+}
+
+footer img {
+  width: 40px;
+  cursor: pointer;
+}
+
+.sub-text {
+  font-size: 14px;
+  line-height: 17px;
+  color: #828282;
+  margin-top: 45px;
+}
+
+.burger-menu {
+  display: none;
+}

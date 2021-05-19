@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/fonts.css" />
+  <link rel="stylesheet" href="./css/styles.css" />
+  <link rel="stylesheet" href="./css/responsive.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"></script>
+  <title>Portfolio</title>
+</head>
+
+<body class="animate__animated animate__fadeIn">
+  <!-- mobile menu -->
+  <div id="nav-mb" class="nav-mb">
+    <ul class="nav">
+      <li>Home
+        <img id="close-btn" src="./media/images/close.png" alt="">
+      </li>
+      <li>About me</li>
+      <li>Skills</li>
+      <li>Portfolio</li>
+      <li>Contacts</li>
+    </ul>
+    <b class="lang"><span style="color: #828282">RU</span> | ENG</b>
+  </div>
+  <!-- header -->
+  <header class="container">
+    <!-- mobile nav burger -->
+
+
+    <ul class="nav">
+      <li>Home</li>
+      <li>About me</li>
+      <li>Skills</li>
+      <li>Portfolio</li>
+      <li>Contacts</li>
+    </ul>
+    <div class="bio">
+      <h1>
+        Denis <br />
+        Novik
+        <img id="burger" class="burger-menu" src="./media/images/burger.png" alt="">
+      </h1>
+      <div>
+        UX | UI designer <br />
+        24 years old, Minsk
+      </div>
+      <b class="lang"><span style="color: #828282">RU</span> | ENG</b>
+    </div>
+    <img class="main-banner" src="./media/images/banner.png" alt="" />
+    <img class="main-banner_mb" src="./media/images/banner-mb.png" alt="">
+
+
+  </header>
+
+  <!-- section one -->
+  <section class="about-section">
+    <div class="container">
+      <h2 class="section-title">About me</h2>
+      <p>
+        Hi, I'm Denis – UX/UI designer from Minsk. I'm interested in design
+        and everything connected with it.
+      </p>
+      <p>
+        I'm studying at courses "Web and mobile design interfaces" in
+        IT-Academy.
+      </p>
+      <p>Ready to implement excellent projects with wonderful people.</p>
+    </div>
+  </section>
+
+  <!-- section two -->
+  <section class="container skills-section">
+    <h2 class="section-title">Skills</h2>
+    <p>I work in such programs as</p>
+    <div class="tools">
+      <img src="./media/images/illustrator.png" alt="illustrator" />
+      <img src="./media/images/figma.png" alt="figma" />
+      <img src="./media/images/photoshop.png" alt="photoshop" />
+      <img src="./media/images/adobe-effects.png" alt="adobe-effects" />
+    </div>
+  </section>
+
+  <!-- section three -->
+  <section class="portfolio-section">
+    <div class="container">
+      <h2 class="section-title">Portfolio</h2>
+      <img src="./media/images/portfolio-1.png" alt="">
+      <p><a href="">Online fashion store - Homepage</a></p>
+      <img src="./media/images/portfolio-2.png" alt="">
+      <p><a href="">Reebok Store - Concept</a></p>
+      <img src="./media/images/portfolio-3.png" alt="">
+      <p><a href="">Braun Landing Page - Concept</a></p>
+    </div>
+  </section>
+
+  <!-- footer -->
+  <footer class="container">
+    <h2 class="section-title">Contacts</h2>
+    <p>Want to know more or just chat? <br>
+      You are welcome!</p>
+    <button>Send message</button>
+    <div>
+      <img src="./media/images/linkedin.png" alt="linkedin">
+      <img src="./media/images/instagram.png" alt="instagram">
+      <img src="./media/images/behance.png" alt="behance">
+      <img src="./media/images/dribble.png" alt="dribble">
+    </div>
+    <p class="sub-text">Like me on <br>
+      LinkedIn, Instagram, Behance, Dribble</p>
+  </footer>
+
+
+  <script>
+    $(document).ready(() => {
+      // hide mobile menu
+      $('#close-btn').click(() => {
+        $('#nav-mb').hide()
+      })
+
+      // show mobile menu
+      $('#burger').click(() => {
+        $('#nav-mb').show()
+      })
+    })
+  </script>
+</body>
+
+</html>
